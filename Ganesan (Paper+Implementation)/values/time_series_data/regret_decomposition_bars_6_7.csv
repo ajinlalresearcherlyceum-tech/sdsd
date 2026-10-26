@@ -1,8 +1,0 @@
-configuration,value_function_error_Lv_eps,estimation_error_loss,certification_energy_cost,total_measured_regret
-GHV only,4.82,26.4,0.0,31.85
-GHV + DCS,4.82,8.45,0.0,13.58
-GHV + MRC,4.82,26.4,5.84,37.62
-GHV + DCS + MRC (CTVD),4.82,8.45,5.12,18.64
-CTVD without merit order,16.5,18.2,6.85,42.1
-CTVD curvature-only DCS,4.82,12.8,5.3,23.25
-CTVD uncertified premium,4.82,8.45,14.6,28.2

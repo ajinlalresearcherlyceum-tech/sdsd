@@ -1,4 +1,0 @@
-Case,Predicted sufficient subset,Empirically best subset,Match,Regret with predicted subset,Regret with all sensors
-Charging,"{T1_in, T3_out} (2 sensors)","{T1_in, T3_out} (2 sensors)",Yes (100%),12.8 ± 1.1,12.4 ± 1.0
-Discharging,"{T1_core, T2_core, T3_core} (3 sensors)","{T1_core, T2_core, T3_core} (3 sensors)",Yes (100%),14.1 ± 1.2,13.8 ± 1.1
-Supercooled discharge,"{T1_core, T2_core, T3_core, ΔT_diff} (4 sensors)","{T1_core, T2_core, T3_core, ΔT_diff} (4 sensors)",Yes (100%),15.6 ± 1.4,15.2 ± 1.3
