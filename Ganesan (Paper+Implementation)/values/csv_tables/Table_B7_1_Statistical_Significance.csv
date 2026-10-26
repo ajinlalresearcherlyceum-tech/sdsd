@@ -1,0 +1,9 @@
+Baseline Comparator,Paired Diff ΔE (kWh/kg),Median Diff [IQR],"Wilcoxon (W+, W-)",Wilcoxon z,Energy p-value,Energy Verdict,Discordant Pairs (Win/Loss),McNemar p-value,Attainment Verdict
+Li et al. [25],+0.4174 ± 0.0013,"+0.4131 [+0.4050, +0.4283]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),36 wins / 3 losses,3.6089e-08,Significant (p=3.61e-08)
+Celma et al. [28],+0.3466 ± 0.0012,"+0.3429 [+0.3372, +0.3571]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),26 wins / 4 losses,5.9476e-05,Significant (p=5.95e-05)
+Wan et al. [30],+0.2748 ± 0.0009,"+0.2708 [+0.2658, +0.2829]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),19 wins / 4 losses,0.0026,Significant (p=2.60e-03)
+Zhao et al. [31],+0.2436 ± 0.0009,"+0.2406 [+0.2357, +0.2490]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),20 wins / 3 losses,4.8828e-04,Significant (p=4.88e-04)
+Ayyappan et al. [32],+0.2948 ± 0.0010,"+0.2920 [+0.2858, +0.3026]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),29 wins / 4 losses,1.0929e-05,Significant (p=1.09e-05)
+Zhang et al. [33],+0.2231 ± 0.0008,"+0.2216 [+0.2166, +0.2298]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),17 wins / 4 losses,0.0072,Significant (p=7.20e-03)
+MPC (perfect forecast),+0.0514 ± 0.0006,"+0.0504 [+0.0461, +0.0566]","W-=0, W+=28920",-13.43,4.01e-41,Significant (p << 1e-6),8 wins / 4 losses,0.3877,Not Signif. (p=0.3877)
+DP oracle (offline ref),-0.0599 ± 0.0004,"-0.0599 [-0.0634, -0.0570]","W+=0, W-=28920",+13.43,4.01e-41,Oracle Reference (Lower Bound),0 wins / 4 losses,0.1250,Oracle Upper Bound (p=0.1250)

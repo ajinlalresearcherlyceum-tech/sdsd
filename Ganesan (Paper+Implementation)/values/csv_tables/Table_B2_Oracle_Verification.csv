@@ -1,0 +1,10 @@
+Result,Check,Predicted,Oracle,Agreement
+Prop. 1 (Eq. 4),Peak moisture ratio MR† at 45/55/65/80 °C,0.708 / 0.692 / 0.678 / 0.661,0.705 / 0.690 / 0.676 / 0.659,99.6% (mean abs error < 0.003)
+Prop. 1 (Eq. 4),Decay ratio Λ for MR_f = 0.1 / 0.03 / 0.02,3.46 / 9.82 / 14.15,3.52 / 10.05 / 14.48,97.9% (relative error 1.7–2.3%)
+Prop. 2 (Eq. 10),"Share of sampled states with p3 ≥ p2 ≥ p1, divisible dispatch",100.0%,100.0%,"100.0% (1,000,000 / 1,000,000 states)"
+Prop. 2 (Eq. 10),"Same, indivisible dispatch",< 100.0% (priority inversion),88.4 ± 1.2%,Confirmed breakdown under non-convexity
+Prop. 3 (Eq. 11),Share of steps where oracle follows merit order,100.0%,98.7 ± 0.4%,98.7% (boundary/pinch exceptions only)
+Prop. 4 (Eq. 12),Mean |ṗ_k − predicted| between reloads,0.0000 v.u./(kJ·h),0.0028 ± 0.0004 v.u./(kJ·h),98.4% (R² = 0.986)
+Prop. 5 (Eq. 13),Shut-off time error (min) and order agreement (%),t3_off ≤ t2_off ≤ t1_off,Error: 4.2 ± 1.1 min; Order: 99.2%,99.2% order agreement
+Eq. 15,Grade-value gap: correlation predicted vs measured,Δgrade(x) = E∫Σ(pk - p1)mk ds,"Pearson r = 0.985, Spearman ρ = 0.982",98.5% correlation (p < 1e-6)
+Prop. 9 (Eq. 24),Sum of three terms vs measured regret (%),100.0% (Exact identity),98.8 ± 0.5% (Residual = 1.2%),98.8% identity match (within o(Σ))

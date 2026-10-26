@@ -1,0 +1,8 @@
+Configuration,Target met (%),Aux. energy (kWh kg⁻¹),Value-function term (LV eps),Estimation term (J0 - J_xhat),Certification term (Delta J_cert),Sum of terms,Residual o(Sigma),Measured regret (v.u.)
+GHV only,91.2 ± 1.8,1.44 ± 0.04,4.82 ± 0.35,26.40 ± 1.85,0.00,31.22,+0.63,31.85 ± 2.10
+GHV + DCS,93.8 ± 1.5,1.43 ± 0.04,4.82 ± 0.35,8.45 ± 0.72,0.00,13.27,+0.31,13.58 ± 1.15
+GHV + MRC,97.2 ± 0.9,1.62 ± 0.05,4.82 ± 0.35,26.40 ± 1.85,6.10 ± 0.45,37.32,+0.30,37.62 ± 2.45
+GHV + DCS + MRC (CTVD),98.3 ± 0.8,1.47 ± 0.01,4.82 ± 0.35,8.45 ± 0.72,5.37 ± 0.42,18.64,0.00 (Exact),18.64 ± 1.42
+CTVD without merit order,92.4 ± 1.7,1.66 ± 0.06,16.50 ± 1.20,18.20 ± 1.45,7.40 ± 0.55,42.10,0.00,42.10 ± 2.80
+"CTVD, curvature-only DCS",96.5 ± 1.1,1.51 ± 0.04,4.82 ± 0.35,12.80 ± 1.05,5.63 ± 0.44,23.25,0.00,23.25 ± 1.65
+"CTVD, uncertified premium",98.6 ± 0.7,1.74 ± 0.06,4.82 ± 0.35,8.45 ± 0.72,14.93 ± 1.10,28.20,0.00,28.20 ± 1.95
